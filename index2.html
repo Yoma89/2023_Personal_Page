@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вторая страница</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- * Start header -->
+    <!-- * Start navbar -->
+    <header>
+      <nav>
+        <div class="nav__left">
+          <a href="./index.html" style="color: white"
+            >Перейти на главную страницу</a
+          >
+        </div>
+
+        <!--* (A) Open Burger menu -->
+        <div class="nav__burger">
+          <!-- (B) Burger menu -->
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger" />
+
+          <!-- (C) Burger menu items -->
+          <div class="nav__burger_items">
+            <a class="link" href="#skills">Skills</a>
+            <a class="link" href="#personal">Personal</a>
+            <a class="link" href="#hobbies">Hobbies</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- * End navbar -->
+    <!-- * End header -->
+
+    <main
+      style="
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+      "
+    >
+      <div>
+        <img src="./assets/images/picture.jpg" alt="picture" />
+        <br />
+        <br />
+        Ralph's Diner by Ralph Goings
+      </div>
+    </main>
+
+    <!-- * start footer -->
+    <footer class="footer">
+      <h3>Contacts</h3>
+      <br />
+      <div class="footer__contacts">
+        <div class="footer__contacts_left">
+          <h4>Address:</h4>
+          <br />
+          <p>
+            Bishkek, <br />
+            Kyrgyzstan 720000
+          </p>
+        </div>
+        <div class="footer__contacts_right">
+          <h4>Phone:</h4>
+          <br />
+          <p>+996 550 970899</p>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <h5>© 2023 Copyright</h5>
+    </footer>
+    <!-- * end footer -->
+  </body>
+</html>
